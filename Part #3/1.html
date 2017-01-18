@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>#1 Registration Form </title>
+</head>
+<body>
+
+
+<form method="post">
+
+<table cellspacing="0" cellpadding="4" width="540px" border="1px">
+	<tr>
+		<td align="right"><strong>Last Name</strong></td>
+		<td colspan="3"><input type="text" style="width:96%" id="LastName"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>First Name</strong></td>
+		<td colspan="3"><input type="text" style="width:96%" id="FirstName"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Address</strong></td>
+		<td colspan="3"><textarea style="width:95%; height:80px" name="Address" id="Adress"></textarea></td>
+	</tr>
+
+	<tr>
+		<td align="right"><strong>City</strong></td>
+		<td><input type="text" style="width:90%" id="City"/></td>
+		<td style="width:30px"><strong>State</strong></td>
+		<td style="width:60px"><input style="width:90%" type="text" id="State"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Postal Code</strong></td>
+		<td colspan="3"><input type="text" style="width:30%" id="postal"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Country</strong></td>
+		<td colspan="3">
+			<select style="width:66%" name="countryselect">
+				<option value="Value 1" selected="selected">Bulgaria</option>
+				<option value="Value 2">Other</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Phone</strong></td>
+		<td colspan="3">(<input type="text" style="width:20%" value="+359" name="country"/>)<input type="text" style="width:20%" name="area"/> - <input type="text" style="width:42%" name="number"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>E-mail</strong></td>
+		<td colspan="3"><input type="email" style="width:94%" name="email"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Birth </strong></td>
+		<td colspan="3"> Month <input type="text" style="width:10%" name="month"/>  Day <input type="text" style="width:10%" name="day"/>  Year(4 digit) <input style="width:20%" type="text" name="year"/></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Gender</strong></td>
+		<td colspan="3">
+			<select style="width:20%" name="Gender">
+				<option value="Value1" selected="selected">Male</option>
+				<option value="Value2">Female</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Date</strong></td>
+		<td colspan="3"><input type="radio" name="startdate" value="Spring"/> Spring <input type="radio" name="startdate" value="Summer"/> Summer </td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Comments/Q</strong></td>
+		<td colspan="3"><textarea  style="width:90%;height:100px" name="comments"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="4" style="background:#d7d7d7"><center><input type="submit" name="submit" value="Submit"/> <input type="reset" name="reset" value="Reset"/></center></td>
+	</tr>
+</table>
+
+
+</form>
+
+</body>
+</html>
